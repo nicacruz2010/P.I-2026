@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-VERSE | Universo do K-pop</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="site">
+    <nav class="navbar">
+      <a class="logo" href="./Inicial.html">K-VERSE</a>
+      <div class="nav-links">
+        <a href="./Inicial.html">Início</a>
+        <a href="./Artistas.html">Artistas</a>
+        <a href="./Noticias.html">Notícias</a>
+        <a href="./façacadastro.html">Cadastro</a>
+        <a href="./Sobrenos.html">Sobre</a>
+        <a href="javascript:history.back()">Voltar</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <h1>Descubra o universo do kpop</h1>
+        <p>Notícia, artistas, músicas e tudo sobre o universo do kpop</p>
+        <a class="explore-button" href="./Noticias.html">EXPLORE AGORA</a>
+      </div>
+      <img class="hero-image"
+           src="./img/BANNER.png"
+           alt="Público em um show musical">
+    </section>
+
+     <section class="albums" id="albuns">
+      <h2>ÁLBUNS DO KPOP</h2>
+      <div class="album-grid">
+        <img class="album" src="./img/Frame 4.png" alt="Capa Definition">
+        <img class="album" src="./img/Frame 5.png" alt="Capa One Question">
+        <img class="album" src="./img/image 10.png" alt="Capa AmpersandOne">
+        <img class="album" src="./img/image 11.png" alt="Capa AmpersandOne azul">
+        <img class="album" src="./img/image 4.png" alt="Capa de álbum vermelho">
+        <img class="album" src="./img/image 5.png" alt="Capa de álbum azul">
+        <img class="album" src="./img/image 9.png" alt="Capa de álbum roxo">
+      </div>
+    </section>
+    <section class="newsletter" id="noticias">
+      <h2>Você gostaria de receber notícias no seu Email?</h2>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Obrigado pelo interesse!');">
+        <button type="submit">Claro que eu gostaria</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
